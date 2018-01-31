@@ -4,7 +4,13 @@ This is [competition](https://datahack.analyticsvidhya.com/contest/click-predict
 
 Train Data is close to 7GB and Test Data is 2GB. I have used Google Cloud Platform to work on this dataset.
 
-* First stored the data in Cloud Storage
+* Uploaded and stored the data in Cloud Storage
 * Spinned up a Google Compute Engine with enough memory
 * Used Google Cloud Datalab for interactive development
+
+
+# Model Development
+
+Built random forest and Gradient Boosting Models, performed hyper paramter tuning and choosed the best model.
+
 
